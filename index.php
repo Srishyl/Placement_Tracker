@@ -39,6 +39,21 @@
         .btn:hover {
             background-color: #560bad;
         }
+        .admin-links {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        .admin-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #3a0ca3;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .admin-links a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -46,6 +61,10 @@
         <h1>Student Placement Search</h1>
         <a class="btn" href="search_usn.php">🔍 Search by USN</a>
         <a class="btn" href="search_company.php">🏢 Search by Company</a>
+        <div class="admin-links">
+            <a href="admin_login.php">👤 Admin Login</a>
+            <a href="admin_register.php">📝 Admin Registration</a>
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,1 @@
+ALTER TABLE students ADD COLUMN company_name VARCHAR(100) NOT NULL AFTER name; 
